@@ -1,0 +1,8 @@
+df_path : "data/fin_average_df.csv"
+model_name : "meta-llama/Meta-Llama-3-8B-Instruct"
+embedding_path : ""
+transcript_column : "transcript_clean"
+label_column : "cefr_bin"
+random_seed : 42
+non_similar : true
+similar_type : ""

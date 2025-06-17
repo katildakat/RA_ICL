@@ -1,0 +1,7 @@
+split: 'all'
+df_path: data/fin_average_df.csv
+transcript_column: transcript_clean
+num_epochs: 1
+batch_size: 64
+embedding_model_name: "TurkuNLP/bert-base-finnish-cased-v1"
+model_name_save: "cefr_similar_school"

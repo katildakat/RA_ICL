@@ -1,0 +1,16 @@
+df_path : "data/fin_average_df.csv"
+model_name : "meta-llama/Meta-Llama-3.1-8B-Instruct"
+batch_size : 4
+shot_types:
+  - zero_shot_prompt
+  - one_shot_prompt_cefr_bin
+  - few_shot_prompt_cefr_bin
+  - one_shot_prompt_knn_bin
+  - few_shot_prompt_knn_bin
+  - one_shot_prompt_trained_knn_bin
+  - one_shot_prompt_untrained_knn_bin
+  - three_shot_prompt_trained_knn_bin
+  - three_shot_prompt_untrained_knn_bin
+  - few_shot_prompt_trained_knn_bin
+  - few_shot_prompt_untrained_knn_bin
+data_records_path : ""

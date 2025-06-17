@@ -1,0 +1,8 @@
+df_path : "data/fin_average_df.csv"
+model_name : "meta-llama/Meta-Llama-3-8B-Instruct"
+embedding_path : "embeddings/sample_to_embedding_trained.npy"
+transcript_column : "transcript_clean"
+label_column : "knn_bin"
+random_seed : 42
+non_similar : false
+similar_type : "trained"
